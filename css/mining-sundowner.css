@@ -1,0 +1,173 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+/*
+$color1:#ef6c00;*/
+
+.nav-orange {
+	background-color: #ef6c00;
+}
+
+header {
+  padding: 150px 0 100px;
+}
+
+section {
+  padding: 10rem 0;
+  /*height: 100vh;*/
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../img/sunset.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+h1 {
+	font-weight: lighter;
+	font-size: 5em;
+}
+
+p.subtitle {
+	font-weight: lighter;
+	font-size: 2.5em;
+}
+
+h2 {
+
+}
+
+/*Footer*/
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: #ef6c00;
+}
+
+.container {
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	/*align-items: center;
+  	justify-content: center;
+	width: 100%;
+	/*margin: 0;*/
+	padding: 0;*/
+}
+
+/*.content {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}*/
+
+.content div {
+	width: 100%;
+	height: 100%;
+  	align-items: center;
+}
+
+.item div {
+	flex:0 0 auto;
+	flex-grow: 0;
+}
+
+.item {
+	margin: 3rem;
+}
+
+/* Google Map Location */
+
+.mapouter {
+	position:relative;
+	text-align:right;
+	height:400px;
+	width:500px;
+	}
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:400px;
+	width:500px;
+}
+
+/* Dividers  https://codepen.io/lukeyphills/pen/FjygE */
+/* Zig Zag (3d up and simple down) */
+
+/*@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+//Change color1 to change entire color scheme
+$color1:teal;
+
+*, *:after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.ss-style-zigzag::before,
+.ss-style-zigzag::after {
+    right: 0;
+    left: 0;
+    z-index: 10;
+    display: block;
+    height: 90px;
+    background-size: 50px 100%;
+  }
+
+.ss-style-zigzag::before {
+	top: -90px;
+	background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, transparent), color-stop(0.25, darken($color1, 7%)));
+	background-image:
+		linear-gradient(315deg, darken($color1, 2%) 25%, transparent 25%),
+		linear-gradient( 45deg, darken($color1, 7%) 25%, transparent 25%);
+	background-position: 50%;
+}
+
+.ss-style-zigzag::after {
+	top: 100%;
+	background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, darken($color1, 7%)), color-stop(0.25, $color1));
+	background-image: 
+		linear-gradient(135deg, darken($color1, 7%) 25%, transparent 25%),
+		linear-gradient(225deg, darken($color1, 7%) 25%, transparent 25%);
+	background-position: 50%;
+}
+
+.col-3 .column {
+	padding: 0 1%;
+	width: 33%;
+	text-align: center;
+}
+
+.col-3 .column p {
+	padding: 1.4em;
+}
+
+.column {
+	display: inline-block;
+	vertical-align: top;
+}
+.color {
+	background: darken($color1, 7%);
+}
+*/
